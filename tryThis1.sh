@@ -5,4 +5,5 @@ gcc -shared -o libfoo.so foo.o						# Step 2: Creating a shared library from an 
 gcc -Wall -o test main.c -lfoo						# Step 3: Linking with a shared library
 gcc -L/home/mike/foo -Wall -o/home/mike/cprogramming test main.c -lfoo 	# Telling GCC where to find the shared library
 echo $LD_LIBRARY_PATH
+objdump -p test
 
