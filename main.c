@@ -3,7 +3,7 @@
  
 int main(void)
 {
-    puts("This is a shared library test... 2");
+    puts("This is a shared library test... 3");
     foo();
     return 0;
 }

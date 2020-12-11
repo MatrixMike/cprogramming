@@ -5,4 +5,5 @@ sudo cp /home/mike/cprogramming/libfoo.so /usr/lib
 whereis libfoo
 ldd test | grep foo
 ldconfig -p | grep foo
+./test
 
