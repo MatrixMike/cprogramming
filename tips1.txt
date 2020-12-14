@@ -1,0 +1,3 @@
+What happened? Our directory is in LD_LIBRARY_PATH, but we did not export it. In Linux, if you do not export the changes to an environment variable, they will not be inherited by the child processes. The loader and our test program did not inherit the changes we made. Thankfully, the fix is easy:
+
+
